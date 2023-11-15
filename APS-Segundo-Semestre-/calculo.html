@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/cs.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https: //fonts.googleapis.com/css2? family= Edu+TAS+Beginner & family= Ubuntu:wght@300 & display=swap"
+        rel="stylesheet">
+    <title>Calculadora</title>
+</head>
+
+<body>
+
+    <body>
+        <header>
+            <a href="#" class="logo">Carbon</a>
+            <ul class="navlist">
+                <li><a href="calculadora.html">Créditos de Carbono</a></li>
+                <li><a href="transporte.html">Transporte e Crédito de Carbono</a></li>
+                <li><a href="calculo.html">Calculadora</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+            </ul>
+
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </header>
+
+        <section class="calculadora">
+            <h1>Saiba quanto seu trajeto emite de carbonooo</h1>
+            <input id="origem" type="text" placeholder="Digite a origem" />
+            <input id="destino" type="text" placeholder="Digite o destino" />
+            <div>
+                <input type="radio" value="carro" name="veiculo" />
+                <input type="radio" value="onibus" name="veiculo" />
+                <input type="radio" value="cesar" name="veiculo" />
+            </div>
+
+            <button id="meuBotao" onclick="onClickBotao()">Clique em mim</button>
+
+
+            <div class="dados">
+                <div>
+                    <h3>Distância em KM:</h3>
+                    <p id="distancia"></p>
+                </div>
+                <div>
+                    <h3>Carbono emitido</h3>
+                    <h3 id="carbono"></h3>
+                </div>
+            </div>
+
+
+        </section>
+
+
+
+        <div class="icons">
+            <a href="#"><i class="ri-github-fill"></i></a>
+            <a href="#"><i class="ri-linkedin-box-fill"></i></a>
+        </div>
+
+
+        <script src="js/script.js"></script>
+    </body>
+
+</html>
